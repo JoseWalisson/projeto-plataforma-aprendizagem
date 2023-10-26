@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    cursor: pointer;
+    transition: .4s;
+}
+
+header h2:hover {
+    letter-spacing: 3px;
+}
+
+header h2 {
+    cursor: default;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+article ol {
+    line-height: 1.6em;
+    font-size: 1.5em;
+    width: 60vw;
+}
+
+article p {
+    font-size: 1.5em;
+}
+
+article span {
+    font-weight: bold;
+}
