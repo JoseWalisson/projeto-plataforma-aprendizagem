@@ -54,6 +54,7 @@ main button {
 }
 
 a {
+    color: #800080;
     text-decoration: none;
     cursor: pointer;
     transition: .4s;

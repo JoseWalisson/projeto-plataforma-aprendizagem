@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#questoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+
+#questoes label {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#msg {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #e9e4e4;
+    color: #e60c0c;
+    font-size: 1.2em;
+    border-radius: 20px;
+}
+
+#questoes input {
+    display: none;
+}

@@ -13,7 +13,7 @@ function inputValor() {
                 button.style.display = "none";
                 msg.innerHTML = "Parabéns, você conseguiu!";
                 msg.style.display = "block";
-                msg.style.color = "green";
+                msg.style.color = "#008000";
                 input.disabled = "off";
                 previa.innerHTML = "A prévia do seu código está abaixo!";
                 resultado.style.display = "flex";
