@@ -22,6 +22,7 @@ ul {
     border: none;
     background-color: #fff;
     color: #000;
+    width: 50%;
 }
 
 article h3, p {
@@ -72,6 +73,11 @@ main #link:hover {
 #resultado h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5em;
+    width: max-content;
+}
+
+#resultado p {
+    text-align: left;
 }
 
 #continuar {
@@ -91,4 +97,9 @@ main #link:hover {
     #resultado {
         width: 10%;
     }
+
+    #h1 {
+        width: 80%;
+    }
+
 }

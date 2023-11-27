@@ -81,6 +81,11 @@ footer {
     text-align: center;
     gap: 30px;
     margin-top: 1em;
+    font-size: 1em;
+}
+
+footer h3, h4 {
+    word-wrap: break-word;
 }
 
 @media screen and (max-width: 425px) {
@@ -89,7 +94,7 @@ footer {
     }
 
     main p {
-        font-size: .8em;
+        font-size: 1em;
     }
 }
 

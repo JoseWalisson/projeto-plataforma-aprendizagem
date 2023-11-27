@@ -9,7 +9,6 @@ function inputValor() {
     const valorUser = input.value;
         if (valorUser === "<h1>Olá, mundo!</h1>") {
             setTimeout(() => {
-                console.log("valor correto!");
                 button.style.display = "none";
                 msg.innerHTML = "Parabéns, você conseguiu!";
                 msg.style.display = "block";
@@ -20,9 +19,6 @@ function inputValor() {
                 continuar.style.display = "block";
             }, 1000);
 
-            // setTimeout(() => {
-            //     window.location = "../index.html";
-            // }, 3500);
         } else if (valorUser === "") {
             msg.style.display = "block";
             msg.innerHTML = "Erro: Digite algo antes de enviar!";
