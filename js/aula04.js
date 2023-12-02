@@ -7,13 +7,11 @@ const previa = document.querySelector("#previa");
 
 function inputValor() {
     const valorUser = input.value;
-        if (valorUser === "<p>Estou aprendendo HTML5!</p>") {
+        if (valorUser === "<h2>Este é um subtítulo</h2>") {
             setTimeout(() => {
-                // const valor = "Estou aprendendo HTML5!";
-                // console.log(valor.length);
                 console.log("valor correto!");
                 button.style.display = "none";
-                msg.innerHTML = "Mandou bem! (;";
+                msg.innerHTML = "Estamos evoluindo! (;";
                 msg.style.display = "block";
                 msg.style.color = "#008000";
                 input.disabled = "off";
@@ -26,10 +24,10 @@ function inputValor() {
             msg.style.display = "block";
             msg.innerHTML = "Erro: Digite algo antes de enviar!";
             console.error("Erro: Digite algo antes de enviar!");
-        } else if (valorUser === "<p></p>") {
+        } else if (valorUser === "<h2></h2>") {
             msg.style.display = "block";
-            msg.innerHTML = "Erro: Coloque o texto 'Estou aprendendo HTML5!' dentro do p";
-            console.error("Erro: Coloque o texto 'Estou aprendendo HTML5!' dentro do p");
+            msg.innerHTML = "Erro: Coloque o texto 'Este é um subtítulo' dentro do h2";
+            console.error("Erro: Coloque o texto 'Este é um subtítulo' dentro do h2");
         } else {
             msg.style.display = "block";
             msg.innerHTML = "Erro: Não é bem isso!";

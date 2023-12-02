@@ -2,19 +2,22 @@ const input = document.querySelector("#h1");
 const resultado = document.querySelector("#resultado");
 const continuar = document.querySelector("#continuar");
 const msg = document.querySelector("#mensagem");
+const mensagem = document.querySelector("#msg");
 const button = document.querySelector("#link");
 const previa = document.querySelector("#previa");
 
 function inputValor() {
     const valorUser = input.value;
-        if (valorUser === "<p>Estou aprendendo HTML5!</p>") {
+        if (valorUser === "<style></style>") {
             setTimeout(() => {
-                // const valor = "Estou aprendendo HTML5!";
-                // console.log(valor.length);
                 console.log("valor correto!");
                 button.style.display = "none";
-                msg.innerHTML = "Mandou bem! (;";
+                msg.innerHTML = "Boa dev! ;D";
+                mensagem.innerHTML = "Por enquanto, você verá que não ouve nenhuma alteração no código.";
+                mensagem.style.display = "block";
                 msg.style.display = "block";
+                mensagem.style.color = "#d4d404";
+                mensagem.style.backgroundColor = "#000000cb"
                 msg.style.color = "#008000";
                 input.disabled = "off";
                 previa.innerHTML = "A prévia do seu código está abaixo!";
@@ -26,10 +29,6 @@ function inputValor() {
             msg.style.display = "block";
             msg.innerHTML = "Erro: Digite algo antes de enviar!";
             console.error("Erro: Digite algo antes de enviar!");
-        } else if (valorUser === "<p></p>") {
-            msg.style.display = "block";
-            msg.innerHTML = "Erro: Coloque o texto 'Estou aprendendo HTML5!' dentro do p";
-            console.error("Erro: Coloque o texto 'Estou aprendendo HTML5!' dentro do p");
         } else {
             msg.style.display = "block";
             msg.innerHTML = "Erro: Não é bem isso!";

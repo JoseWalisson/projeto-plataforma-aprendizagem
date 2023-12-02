@@ -40,19 +40,6 @@ const verificarOp4 = () => {
     return;
 }
 
-// function verificarOpcao(opcao) {
-
-//     if (opcao === opcao1) {
-//         console.log("certo")
-//         opcao.style.backgroundColor = "#e9e4e4";
-//         return true;
-//     } else {
-//         console.log("errado!")
-//         opcao.style.backgroundColor = "#e99191";
-//         return false;
-//     }
-// }
-
 function verificarResposta() {
 
     // opcoes.forEach(opcao => {
@@ -90,7 +77,7 @@ function verificarResposta() {
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula01.html";
+            window.location = "../aulas/aula02.html";
         }, 5500);
         console.error("Hi, não é bem isso!");
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado2") {
@@ -104,7 +91,7 @@ function verificarResposta() {
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula01.html";
+            window.location = "../aulas/aula02.html";
         }, 5500);
         console.error("Não foi dessa vez ):");
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado3") {
@@ -118,7 +105,7 @@ function verificarResposta() {
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula01.html";
+            window.location = "../aulas/aula02.html";
         }, 5500);
         console.error("Você infelizmente errou!");
     } else {

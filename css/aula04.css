@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #000;
+    width: max-content;
+}
+
+
+@media screen and (max-width: 425px) {
+    #resultado {
+        width: 30vw;
+        word-wrap: break-word;
+    }
+}
