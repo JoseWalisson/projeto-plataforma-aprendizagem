@@ -63,7 +63,7 @@ function verificarResposta() {
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula06.html";
+            window.location = "../home/aula06Explicacao.html";
         }, 5500);
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado2") {
 

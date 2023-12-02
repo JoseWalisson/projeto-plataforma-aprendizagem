@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 17 - Final</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/aula01.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto <a href="../index.html"><span>CodeLab</span></a></h1>
+        <h2>Próximos passos...</h2>
+    </header>
+
+    <main>
+        <article>
+            <h2>Parabéns estudante!</h2>
+            <p>Você finalizou todas as aulas, aprendeu alguns conceitos de HTML5 e CSS3, praticando e resolvendo questões. Mas não para por aí! Você pode continuar se empenhando para entender mais a fundo essas linguagens e até aprender outras! &#x1F604;</p>
+
+            <p>Veja abaixo algumas dicas!</p>
+            
+            <ol>
+                <li>Busque por vídeos no youtube, existem diversos canais onde você pode aprender HTML5, CSS3 e até outras linguagens de <span>graça</span>.</li>
+                <li>Procure por artigos e blogs para ajudar nos seus estudos.</li>
+                <li>Se conseguir invista em cursos para se aprofundar no assunto.</li>
+                <li>E claro, não esqueça de praticar!</li>
+            </ol>
+
+            <p>Se você gostou desse projeto, nos ajude compartilhando!</p>
+        </article>
+        <input type="text" name="texto" id="texto" value="https://josewalisson.github.io/projeto-plataforma-aprendizagem/" readonly/>
+        <button id="text" onclick="copiarTexto()">Copiar link</button>
+        </div>
+    </main>
+    <script>
+        function copiarTexto() {
+            setTimeout(() => {
+                texto.innerHTML = "Copiar link";
+            }, 2000);
+        let textoCopiado = document.getElementById("texto");
+        let texto = document.getElementById("text");
+        textoCopiado.select();
+        textoCopiado.setSelectionRange(0, 99999)
+        document.execCommand("copy");
+        texto.innerHTML = "Copiado!";
+    }
+    </script>
+</body>
+</html>

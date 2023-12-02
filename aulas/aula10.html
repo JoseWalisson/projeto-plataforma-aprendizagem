@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 09</title>
+    <title>Aula 10</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/home.css">
@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>Projeto <a href="../index.html"><span>CodeLab</span></a></h1>
-        <h2>Adicionando estilos ao elemento h1</h2>
+        <h2>Adicionando estilos a todos os elementos</h2>
     </header>
 
     <main>
@@ -21,10 +21,9 @@
             <h2>CSS</h2>
             <p>Criando estilos internos</p>
 
-            <h3>Adicione uma propriedade <span>text-align:</span> com um valor de <span>center;</span> na tag h1 para mudar a posição do texto</h3>
-            <p>Exemplo: p {text-align: left;}</p>
+            <h3>Adicione uma <span>","</span> para dar o mesmo estilo para os outros elementos, pegando de acordo com a ordem do código</h3>
+            <p>Exemplo: p, h2 {color: black;}</p>
             <p>&#x1F4A1;Lembre-se: Os seletores <span>CSS</span> NÃO usam a tag de abertura: <span>&lt;&gt;</span> e a tag de fechamento <span>&lt;&sol;&gt;</span></p>
-            <p>&#x1F4A1;Observação: Você já adicionou o seletor <span>h1</span> dentro da tag de <span>&lt;style&gt;</span></p>
 
             <ul>
                 <li>&lt;DOCTYPE html&gt;</li>
@@ -34,12 +33,13 @@
                 <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</li>
                 <li>&lt;title&gt;Meu primeiro projeto!&lt;&sol;title&gt;</li>
                 <li>&lt;style&gt;</li>
-                <li>h1 &lbrace;</li>
-                <li>color: green;</li>
+                <!-- <li>h1 &lbrace;</li> -->
                 <p id="mensagem"></p>
                 <label for="link"></label>
-                <input autocomplete="off" placeholder="Coloque seu código aqui!" type="text" name="link" id="h1" maxlength="">
+                <input autocomplete="off" placeholder="Coloque seu código aqui!" type="text" name="link" id="h1" maxlength="" value="h1 seu código aqui! {">
                 <button id="link" type="button">Validar</button>
+                <li>color: green;</li>
+                <li>text-align: center;</li>
                 <li>&rbrace;</li>
                 <li>&lt;&sol;style&gt;</li>
                 <li>&lt;&sol;head&gt;</li>
@@ -53,13 +53,13 @@
             <h2 id="previa">A prévia do seu código aparecerá abaixo!</h2>
             <div id="resultado">
                 <h1 style="text-align: center; color: green; width: 80vw;">Olá, mundo!</h1>
-                <p>Estou aprendendo HTML5!</p>
-                <h2 id="h2">Este é um subtítulo</h2>
+                <p style="text-align: center; color: green; width: 80vw;">Estou aprendendo HTML5!</p>
+                <h2 style="text-align: center; color: green; width: 80vw;" id="h2">Este é um subtítulo</h2>
             </div>
-            <a id="continuar" href="../aulas/aula10.html"><button>Continuar</button></a>
+            <a id="continuar" href="../aulas/aula11.html"><button>Continuar</button></a>
         </article>
     </div>
     </main>
-    <script src="../js/aula09.js"></script>
+    <script src="../js/aula10.js"></script>
 </body>
 </html>

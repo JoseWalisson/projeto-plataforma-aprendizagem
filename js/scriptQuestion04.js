@@ -54,30 +54,30 @@ function verificarResposta() {
 
         setTimeout(() => {
             verificarInput.style.display = "none";
-            opcao4.style.color = "#008000";
-            opcao4.style.fontWeight = "bold";
-            opcao4.style.backgroundColor = "e9e4e4";
+            opcao2.style.color = "#008000";
+            opcao2.style.fontWeight = "bold";
+            opcao2.style.backgroundColor = "e9e4e4";
             msg.style.display = "block";
             msg.style.color = "#008000";
-            msg.innerHTML = "Vamos nessa!";
+            msg.innerHTML = "Sua dedicação sendo mostrada! &#x1F60E;";
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula08.html";
+            window.location = "../aulas/aula12.html";
         }, 5500);
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado2") {
 
         setTimeout(() => {
             verificarInput.style.display = "none";
-            opcao2.style.color = "#e60c0c";
-            opcao2.style.fontWeight = "bold";
-            opcao2.style.backgroundColor = "#e9e4e4";
+            opcao4.style.color = "#e60c0c";
+            opcao4.style.fontWeight = "bold";
+            opcao4.style.backgroundColor = "#e9e4e4";
             msg.style.display = "block";
             msg.innerHTML = "Hum... Ainda não!";
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula07.html";
+            window.location = "../aulas/aula11.html";
         }, 5500);
         console.error("Hum... Ainda não!");
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado1") {
@@ -91,7 +91,7 @@ function verificarResposta() {
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula07.html";
+            window.location = "../aulas/aula11.html";
         }, 5500);
         console.error("Vamos com calma, tente novamente!");
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado3") {
@@ -105,7 +105,7 @@ function verificarResposta() {
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula07.html";
+            window.location = "../aulas/aula11.html";
         }, 5500);
         console.error("Você infelizmente errou!");
     } else {

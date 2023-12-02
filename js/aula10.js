@@ -7,11 +7,11 @@ const previa = document.querySelector("#previa");
 
 function inputValor() {
     const valorUser = input.value;
-        if (valorUser === "h1 {color: green;}") {
+        if (valorUser === "h1, p, h2 {") {
             setTimeout(() => {
                 console.log("valor correto!");
                 button.style.display = "none";
-                msg.innerHTML = "É sobre isso! &#x1F601;";
+                msg.innerHTML = "Mandou bem! &#x1F979;";
                 msg.style.display = "block";
                 msg.style.color = "#008000";
                 input.disabled = "off";
@@ -20,7 +20,7 @@ function inputValor() {
                 continuar.style.display = "block";
             }, 1000);
 
-        } else if (valorUser === "") {
+        } else if (valorUser === "" || valorUser == "h1 seu código aqui! {") {
             msg.style.display = "block";
             msg.innerHTML = "Erro: Digite algo antes de enviar!";
             console.error("Erro: Digite algo antes de enviar!");

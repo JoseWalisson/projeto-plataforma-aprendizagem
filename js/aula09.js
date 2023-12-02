@@ -11,13 +11,12 @@ function inputValor() {
             setTimeout(() => {
                 console.log("valor correto!");
                 button.style.display = "none";
-                msg.innerHTML = "Muito bem!";
+                msg.innerHTML = "Muito bem! &#x1F643;";
                 msg.style.display = "block";
                 msg.style.color = "#008000";
                 input.disabled = "off";
                 previa.innerHTML = "A prévia do seu código está abaixo!";
                 resultado.style.display = "flex";
-                // resultado.style.justi = "flex";
                 continuar.style.display = "block";
             }, 1000);
 

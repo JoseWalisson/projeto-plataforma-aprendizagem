@@ -26,6 +26,11 @@ ul {
     width: 50%;
 }
 
+#texto {
+    padding: 15px;
+    border-radius: 20px;
+}
+
 article h3, p {
     font-size: 1.5em;
     width: 80%;

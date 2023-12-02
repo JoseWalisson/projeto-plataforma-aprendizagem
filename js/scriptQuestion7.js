@@ -54,18 +54,18 @@ function verificarResposta() {
 
         setTimeout(() => {
             verificarInput.style.display = "none";
-            opcao4.style.color = "#008000";
-            opcao4.style.fontWeight = "bold";
-            opcao4.style.backgroundColor = "e9e4e4";
+            opcao3.style.color = "#008000";
+            opcao3.style.fontWeight = "bold";
+            opcao3.style.backgroundColor = "e9e4e4";
             msg.style.display = "block";
             msg.style.color = "#008000";
-            msg.innerHTML = "Vamos nessa!";
+            msg.innerHTML = "Você está esperto(a)! &#x1F60E;";
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula08.html";
+            window.location = "../home/aulaFinal17.html";
         }, 5500);
-    } else if (opcaoSelecionada && opcaoSelecionada.value === "errado2") {
+    } else if (opcaoSelecionada && opcaoSelecionada.value === "errado1") {
 
         setTimeout(() => {
             verificarInput.style.display = "none";
@@ -73,39 +73,39 @@ function verificarResposta() {
             opcao2.style.fontWeight = "bold";
             opcao2.style.backgroundColor = "#e9e4e4";
             msg.style.display = "block";
-            msg.innerHTML = "Hum... Ainda não!";
+            msg.innerHTML = "Hi, não é bem isso!";
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula07.html";
+            window.location = "../aulas/aula16.html";
         }, 5500);
-        console.error("Hum... Ainda não!");
-    } else if (opcaoSelecionada && opcaoSelecionada.value === "errado1") {
+        console.error("Hi, não é bem isso!");
+    } else if (opcaoSelecionada && opcaoSelecionada.value === "errado2") {
         setTimeout(() => {
             verificarInput.style.display = "none";
             opcao1.style.color = "#e60c0c";
             opcao1.style.fontWeight = "bold";
             opcao1.style.backgroundColor = "#e9e4e4";
             msg.style.display = "block";
-            msg.innerHTML = "Vamos com calma, tente novamente!";
+            msg.innerHTML = "Não foi dessa vez ):";
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula07.html";
+            window.location = "../aulas/aula16.html";
         }, 5500);
-        console.error("Vamos com calma, tente novamente!");
+        console.error("Não foi dessa vez ):");
     } else if (opcaoSelecionada && opcaoSelecionada.value === "errado3") {
         setTimeout(() => {
             verificarInput.style.display = "none";
-            opcao3.style.color = "#e60c0c";
-            opcao3.style.fontWeight = "bold";
-            opcao3.style.backgroundColor = "#e9e4e4";
+            opcao4.style.color = "#e60c0c";
+            opcao4.style.fontWeight = "bold";
+            opcao4.style.backgroundColor = "#e9e4e4";
             msg.style.display = "block";
             msg.innerHTML = "Você infelizmente errou!";
         }, 1000);
 
         setTimeout(() => {
-            window.location = "../aulas/aula07.html";
+            window.location = "../aulas/aula16.html";
         }, 5500);
         console.error("Você infelizmente errou!");
     } else {

@@ -7,11 +7,11 @@ const previa = document.querySelector("#previa");
 
 function inputValor() {
     const valorUser = input.value;
-        if (valorUser === "h1 {color: green;}") {
+        if (valorUser === "font-style: italic;") {
             setTimeout(() => {
                 console.log("valor correto!");
                 button.style.display = "none";
-                msg.innerHTML = "É sobre isso! &#x1F601;";
+                msg.innerHTML = "Mandou bem! &#x1F979;";
                 msg.style.display = "block";
                 msg.style.color = "#008000";
                 input.disabled = "off";

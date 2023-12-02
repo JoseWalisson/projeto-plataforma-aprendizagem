@@ -12,8 +12,8 @@ function inputValor() {
             setTimeout(() => {
                 console.log("valor correto!");
                 button.style.display = "none";
-                msg.innerHTML = "Boa dev! ;D";
-                mensagem.innerHTML = "Por enquanto, você verá que não ouve nenhuma alteração no código.";
+                msg.innerHTML = "Boa dev! &#x1F604;";
+                mensagem.innerHTML = "&#x1F610; Por enquanto, você verá que não ouve nenhuma alteração visual.";
                 mensagem.style.display = "block";
                 msg.style.display = "block";
                 mensagem.style.color = "#d4d404";
